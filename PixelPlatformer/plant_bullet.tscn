@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bonkcktif8fiy"]
+
+[ext_resource type="Texture2D" uid="uid://d2hjp0jkr6tp6" path="res://Art/Enemies/Plant/Bullet.png" id="1_ad7k3"]
+[ext_resource type="Script" path="res://plant_bullet.gd" id="1_lowof"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g5dp4"]
+radius = 3.16228
+
+[node name="PlantBullet" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_lowof")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ad7k3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_g5dp4")

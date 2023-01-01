@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://6db76ow16quh"
+path="res://.godot/imported/Appear (44x30).png-e619a7c8d8ba1e4bb95f57dfbd8794ba.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Art/Items/Art/Enemies/Ghost/Appear (44x30).png"
+dest_files=["res://.godot/imported/Appear (44x30).png-e619a7c8d8ba1e4bb95f57dfbd8794ba.ctex"]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/bptc_ldr=0
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1
