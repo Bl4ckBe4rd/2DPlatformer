@@ -1,1 +1,18 @@
-a
+ check-attr           Display gitattributes information
+   check-ignore         Debug gitignore / exclude files
+   check-mailmap        Show canonical names and email addresses of contacts
+   check-ref-format     Ensures that a reference name is well formed
+   column               Display data in columns
+   credential           Retrieve and store user credentials
+   credential-cache     Helper to temporarily store passwords in memory
+   credential-store     Helper to store credentials on disk
+   fmt-merge-msg        Produce a merge commit message
+   hook                 Run git hooks
+   interpret-trailers   Add or parse structured information in commit messages
+   mailinfo             Extracts patch and authorship from a single e-mail message
+   mailsplit            Simple UNIX mbox splitter program
+   merge-one-file       The standard helper program to use with git-merge-index
+   patch-id             Compute unique ID for a patch
+   sh-i18n              Git's i18n setup code for shell scripts
+   sh-setup             Common Git shell script setup code
+   stripspace           Remove unnecessary whitespace
